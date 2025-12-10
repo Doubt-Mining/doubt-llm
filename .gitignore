@@ -1,0 +1,67 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+.virtualenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (optional - uncomment if you don't want to track large datasets)
+# *.csv
+# *.pkl
+# *.json
+
+# Output files (optional - uncomment if you don't want to track results)
+# output/
+# output_merged/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
