@@ -90,20 +90,12 @@ doubt-llm/
 
 2. Install dependencies (see Step 1 in each notebook for specific requirements)
 
-3. Create a `.env` file in the root directory:
+3. Set up environment variables:
+   ```bash
+   # Copy the example file and add your API keys
+   cp .env.example .env
    ```
-   OPENAI_API_KEY="your-key"
-   ANTHROPIC_API_KEY="your-key"
-   GEMINI_API_KEY="your-key"
-   MISTRAL_API_KEY="your-key"
-   DEEPSEEK_API_KEY="your-key"
-   QWEN_API_KEY="your-key"
-   OLLAMA_API_KEY="fake-key"
-
-   DATASET="data/processed_dataset.csv"
-   REFLECTION_COLUMN="reflection"
-   LABEL_COLUMN="label"
-   ```
+   Then edit `.env` and replace the placeholder values with your actual API keys
 
 4. For local SLMs, install and start Ollama:
    ```bash
