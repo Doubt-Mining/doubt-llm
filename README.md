@@ -73,6 +73,18 @@ doubt-llm/
 
 ## Setup
 
+### Quickstart
+
+```bash
+# macOS/Linux
+python -m venv .venv
+source .venv/bin/activate
+# install deps listed in Step 1 of llm_doubts.ipynb
+cp .env.example .env
+# update .env with your API keys before running notebooks
+jupyter notebook  # open llm_doubts.ipynb and run all cells
+```
+
 ### Requirements
 
 - Python 3.9+
@@ -94,6 +106,7 @@ doubt-llm/
    ```bash
    # Copy the example file and add your API keys
    cp .env.example .env
+   # update .env with your API keys before running notebooks
    ```
    Then edit `.env` and replace the placeholder values with your actual API keys
 
