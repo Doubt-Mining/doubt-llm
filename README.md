@@ -131,9 +131,11 @@ Each notebook is self-contained with step-by-step instructions.
 
 ## Data
 
-A sample dataset (`data/LAK26_doubt_sample.txt`) is provided containing example student learning reflections for testing the models. The data includes student reflections with binary labels:
+A sample dataset (`data/LAK26_doubt_sample.txt`) is provided containing example student learning reflections for testing the models. The file contains labels as "doubt" and "no doubt", but the scripts expect binary labels (1 or 0):
 - **Label 1**: Reflection expresses doubt about learning
 - **Label 0**: Reflection does not express doubt
+
+Note: You may need to convert the labels from "doubt"/"no doubt" to 1/0 format for use with the scripts.
 
 ## Evaluation Metrics
 
