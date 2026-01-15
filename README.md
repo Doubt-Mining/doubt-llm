@@ -62,8 +62,7 @@ doubt-llm/
 ├── llm_doubts_mad_two_agents.ipynb        # Two-agent debate MAD
 ├── llm_summary.ipynb                      # Results analysis
 ├── data/                                  # Student reflection datasets
-│   ├── processed_dataset.csv              # Main dataset
-│   └── ...
+│   └── LAK26_doubt_sample.txt             # Sample reflections for testing
 ├── output/                                # Experiment results
 │   ├── llm/                               # Large Language Model results
 │   ├── slm/                               # Small Language Model results
@@ -132,7 +131,7 @@ Each notebook is self-contained with step-by-step instructions.
 
 ## Data
 
-The dataset contains student learning reflections with binary labels:
+A sample dataset (`data/LAK26_doubt_sample.txt`) is provided containing example student learning reflections for testing the models. The data includes student reflections with binary labels:
 - **Label 1**: Reflection expresses doubt about learning
 - **Label 0**: Reflection does not express doubt
 
